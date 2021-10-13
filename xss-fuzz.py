@@ -18,4 +18,4 @@ while True:
     response = requests.get(url,params={'term': payload})
     #check if XSS is found on webpage
     if resp.text.find(payload) != -1:
-        print("XSS Found:! " + payload)
+        print("Possible XSS : " + payload)
